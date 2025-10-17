@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173", 
-    "http://www.petalperfect.com.s3-website-us-east-1.amazonaws.com"
+    "https://vercel.com/theonlyceos-projects/gadget-store"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
