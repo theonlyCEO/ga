@@ -11,9 +11,9 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173", 
-    "https://gadget-store-lilac.vercel.app/",
-"https://gadget-store-git-master-theonlyceos-projects.vercel.app/",
-"https://gadget-store-q6pkb44wx-theonlyceos-projects.vercel.app/"
+    "https://gadget-store-lilac.vercel.app",
+"https://gadget-store-git-master-theonlyceos-projects.vercel.app",
+"https://gadget-store-q6pkb44wx-theonlyceos-projects.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
